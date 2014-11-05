@@ -32,7 +32,9 @@ from django_nose import NoseTestSuiteRunner
 
 
 class NoseCoverageTestRunner(CoverageRunner, NoseTestSuiteRunner):
+
     """Custom test runner that uses nose and coverage"""
+
     def run_tests(self, *args, **kwargs):
         results = super(NoseCoverageTestRunner, self).run_tests(
             *args, **kwargs)

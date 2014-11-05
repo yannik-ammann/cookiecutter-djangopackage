@@ -19,4 +19,4 @@ Contributors
 * Paul Hallett / phalt
 * Erik Romijn / erikr
 * Eyad Toma / dadoeyad
-* Tzu - ping Chung / uranusjr
+* Tzu-ping Chung / uranusjr

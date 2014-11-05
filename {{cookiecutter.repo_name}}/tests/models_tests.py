@@ -1,14 +1,26 @@
-"""Tests for the models of the {{cookiecutter.app_name}} app."""
-from django.test import TestCase
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
-# from . import factories
+"""
+test_{{ cookiecutter.repo_name }}
+------------
+Tests for `{{ cookiecutter.repo_name }}` models module.
+"""
+
+import os
+import shutil
+import unittest
+
+from {{ cookiecutter.app_name }} import models
 
 
-class DummyModelTestCase(TestCase):
-    """Tests for the ``DummyModel`` model."""
+class Test{{ cookiecutter.app_name|capitalize }}(unittest.TestCase):
+
     def setUp(self):
-        # self.obj = factories.DummyModelFactory()
+        pass
 
-    def test_model(self):
-        # self.assertTrue(self.obj.pk)
-        self.assertTrue(True)
+    def test_something(self):
+        pass
+
+    def tearDown(self):
+        pass

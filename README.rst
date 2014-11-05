@@ -98,8 +98,8 @@ Time to release a new version? Easy! Just run::
 It will answer with something like::
 
     You probably want to also tag the version now:
-      git tag -a 0.1.0 -m 'version 0.1.0'
-      git push --tags
+          git tag -a 0.1.0 -m 'version 0.1.0'
+          git push --tags
 
 Go ahead and follow those instructions.
 

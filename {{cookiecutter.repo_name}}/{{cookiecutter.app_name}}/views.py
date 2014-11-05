@@ -11,4 +11,4 @@
 #from django.http import HttpResponseRedirect
 
 # class YourView(TemplateView):
-#    template_name = 'VAR_PACKAGE_NAME/default.html'
+#    template_name = '{{cookiecutter.app_name}}/default.html'

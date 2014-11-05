@@ -1,4 +1,4 @@
-"""URLs for the VAR_PACKAGE_NAME app."""
+"""URLs for the {{cookiecutter.app_name}} app."""
 
 # from django.conf.urls import patterns, url
 
@@ -9,5 +9,5 @@
 #     '',
 #     url(r'^$',
 #         views.YourView.as_view(),
-#         name='VAR_PACKAGE_NAME_default'),
+#         name='{{cookiecutter.app_name}}_default'),
 # )

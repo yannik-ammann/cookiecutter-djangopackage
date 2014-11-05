@@ -19,7 +19,7 @@ DATABASES = {
     }
 }
 
-ROOT_URLCONF = 'VAR_PACKAGE_NAME.tests.urls'
+ROOT_URLCONF = '{{cookiecutter.app_name}}.tests.urls'
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(APP_ROOT, '../app_static')
@@ -53,8 +53,8 @@ EXTERNAL_APPS = [
 ]
 
 INTERNAL_APPS = [
-    'VAR_PACKAGE_NAME',
-    'VAR_PACKAGE_NAME.tests.test_app',
+    '{{cookiecutter.app_name}}',
+    '{{cookiecutter.app_name}}.tests.test_app',
 ]
 
 INSTALLED_APPS = EXTERNAL_APPS + INTERNAL_APPS

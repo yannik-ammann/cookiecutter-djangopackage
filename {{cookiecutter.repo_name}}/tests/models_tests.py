@@ -1,4 +1,4 @@
-"""Tests for the models of the VAR_PACKAGE_NAME app."""
+"""Tests for the models of the {{cookiecutter.app_name}} app."""
 from django.test import TestCase
 
 # from . import factories

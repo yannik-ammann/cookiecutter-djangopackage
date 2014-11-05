@@ -106,5 +106,5 @@ Go ahead and follow those instructions.
 Add to Django Packages
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Once you have a release, and assuming you have an account there, just go to https://www.djangopackages.com/packages/add/ and add it there.
+Once you have a release, and assuming you have an account there, just go to https://www.djangopackages.com/packages/add/ and add it there. 
 

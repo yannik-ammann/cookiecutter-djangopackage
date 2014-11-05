@@ -1,7 +1,7 @@
 
 # from django.contrib import admin
 
-# from . import models
+# from {{cookiecutter.app_name}} import models
 
 
 # class YourModelAdmin(admin.ModelAdmin):
